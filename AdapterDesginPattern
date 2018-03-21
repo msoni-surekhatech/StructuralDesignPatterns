@@ -37,6 +37,8 @@ public class VLC implements MediaPackage {
  
 }
 
+/* Here, we want to use VLC and MP4 instances as MediaPlayer instances. 
+So, we need an adapter. This is the code of the FormatAdapter :*/
 
 public class FormatAdapter implements MediaPlayer {
  
