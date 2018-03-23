@@ -37,9 +37,6 @@ public class Circle implements Shape {
 
 public class ShapeFactory {
 
-   // Uncomment the compiler directive line and
-   // javac *.java will compile properly.
-   // @SuppressWarnings("unchecked")
    private static final HashMap circleMap = new HashMap();
 
    public static Shape getCircle(String color) {
